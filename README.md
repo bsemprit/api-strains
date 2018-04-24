@@ -1,0 +1,1 @@
+This is a strain api, running on localhost port 8888. To get started, create a database called strains and run `npm install` and `knex migrate:latest` and then `knex seed:run` to create the tables and seed the database. Finally run `npm run start` to start the database, config files are in config.js and change if necessary! 

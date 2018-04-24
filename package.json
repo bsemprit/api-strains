@@ -1,0 +1,25 @@
+{
+  "name": "strains_api",
+  "version": "1.0.0",
+  "description": "An api for interacting with strain data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node app.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Bianca Semprit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^1.17.3"
+  }
+}
